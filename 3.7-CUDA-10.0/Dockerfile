@@ -31,7 +31,7 @@ RUN ln -s /usr/local/bin/python3.7 /usr/local/bin/python3 \
 && ln -s /usr/local/bin/pydoc3.7 /usr/local/bin/pydoc \
 && ln -s /usr/local/bin/python3.7m-config /usr/local/bin/python-config
 
-RUN pip3 install --upgrade pip setuptools wheel torch==1.0.1.post2 torchvision==0.2.1 future==0.17.1 onnx==1.4.1 protobuf==3.7.1
+RUN pip3 install --upgrade pip setuptools wheel torch==1.1.0 torchvision==0.2.1 future==0.17.1 onnx==1.5.0 protobuf==3.7.1
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
